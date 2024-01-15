@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:wght@600;800&display=swap');
+
+* {
+    box-sizing: border-box;
+    font-family: 'Figtree', sans-serif;
+}
+
+body {
+    background: hsl(47, 88%, 63%);
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.container {
+    background: #fff;
+    border: 1px solid #887f7f;
+    border-radius: 1.5rem;
+    max-width: 380px;
+    min-width: 250px;
+    display: flex;
+    flex-direction: column;
+    margin: 8rem 0.5rem 2rem 0.5rem;
+}
+
+.image {
+    margin: 1.2rem;
+}
+.content a,
+.content span,
+.content h1, .content p, .avatar-img{
+    margin: 0.5rem 1.2rem 1rem 1.2rem;
+}
+
+.image {
+    max-width: 360px;
+}
+
+.image .illustration-article {
+    width: 100%;
+    height: fit-content;
+    border-radius: 8px;
+}
+
+.content a {
+    margin: 1.2rem;
+    font-weight: 800;
+    background: hsl(47, 88%, 63%);
+    padding: 5px 8px;
+    border-radius: 4px;
+    color: black;
+    text-decoration: none;
+}
+
+.content span {
+    margin: 1.2rem;
+    display: block;
+    font-weight: 600;
+}
+
+.content h1 {
+    font-size: 26px;
+    font-weight: 800;
+}
+.content p {
+    margin-right: 0.5rem;
+    color:  hsl(0, 0%, 50%)
+}
+
+.footer-content {
+    display: flex;
+    gap: 10px;
+}
+.avatar-img {
+    max-width: 2.5rem;
+    margin-right: 0;
+}
+.avatar-name {
+    align-self:center;
+    font-weight: 800;
+}
+
+
+/* Media for mobile devices*/
+
+@media (min-width: 350px) {
+
+    .content h1 {
+        font-size: 22px;
+    }
+    .content p {
+       font-size: 15px;
+    }
+
+}
+
+
+
+
+
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
